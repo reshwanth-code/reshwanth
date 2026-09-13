@@ -1,0 +1,41 @@
+/*program for student grade*/
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int sno,tel,hin,eng,mat,sci,sco,total;
+float avg;
+char name [10];
+clrscr();
+printf("enter student name");
+scanf("%d",&sno);
+printf("enter student number ");
+scanf("%s",&name);
+printf("enter six subject marks");
+scanf("%d%d%d%d%d%d",&tel,&hin,&eng,&mat,&sci,&sco);
+avg=total/6;
+printf("\n the student number is %d",sno);
+printf("\n the student name is %s",name);
+printf("\n the student total marks is %d",total);
+printf("\n the student avg marks is %f",avg);
+if(tel>=35&&hin>=36&&eng>=35&&mat>=35&&sci>=35&&sco>=35)
+{
+if(avg>=60)
+{
+printf("result is passed in A grade ");
+}
+else if (avg>=50 and avg<60)
+{
+printf("result is passed in B grade ");
+}
+else
+{
+printf("result is passed in C grade");
+}
+}
+else 
+{
+printf("fail");
+}
+getch();
+}
