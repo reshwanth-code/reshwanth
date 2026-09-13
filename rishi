@@ -8,7 +8,7 @@ char name [10];
 printf("enter student number");
 scanf("%d",&sno);
 printf("enter student name ");
-scanf("%s",&name);
+scanf("%s",name);
 printf("enter six subject marks");
 scanf("%d%d%d%d%d%d",&tel,&hin,&eng,&mat,&sci,&sco);
 total=tel+hin+eng+mat+sci+sco;
