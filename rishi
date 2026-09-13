@@ -1,18 +1,17 @@
 /*program for student grade*/
 #include<stdio.h>
-#include<conio.h>
 main()
 {
 int sno,tel,hin,eng,mat,sci,sco,total;
 float avg;
 char name [10];
-clrscr();
-printf("enter student name");
+printf("enter student number");
 scanf("%d",&sno);
-printf("enter student number ");
+printf("enter student name ");
 scanf("%s",&name);
 printf("enter six subject marks");
 scanf("%d%d%d%d%d%d",&tel,&hin,&eng,&mat,&sci,&sco);
+total=tel+hin+eng+mat+sci+sco;
 avg=total/6;
 printf("\n the student number is %d",sno);
 printf("\n the student name is %s",name);
