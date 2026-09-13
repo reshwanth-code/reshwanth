@@ -4,7 +4,7 @@ main()
 {
 int sno,tel,hin,eng,mat,sci,sco,total;
 float avg;
-char name [20];
+char name[20];
 printf("enter student number");
 scanf("%d",&sno);
 printf("enter student name ");
