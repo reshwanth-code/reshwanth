@@ -12,7 +12,7 @@ scanf("%s",name);
 printf("enter six subject marks");
 scanf("%d%d%d%d%d%d",&tel,&hin,&eng,&mat,&sci,&sco);
 total=tel+hin+eng+mat+sci+sco;
-avg=total/6;
+avg=total/6.0;
 printf("\n the student number is %d",sno);
 printf("\n the student name is %s",name);
 printf("\n the student total marks is %d",total);
