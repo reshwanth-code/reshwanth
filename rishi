@@ -17,7 +17,7 @@ printf("\n the student number is %d",sno);
 printf("\n the student name is %s",name);
 printf("\n the student total marks is %d",total);
 printf("\n the student avg marks is %f",avg);
-if(tel>=35&&hin>=36&&eng>=35&&mat>=35&&sci>=35&&sco>=35)
+if(tel>=35&&hin>=35&&eng>=35&&mat>=35&&sci>=35&&sco>=35)
 {
 if(avg>=60)
 {
