@@ -23,7 +23,7 @@ if(avg>=60)
 {
 printf("result is passed in A grade ");
 }
-else if (avg>=50 and avg<60)
+else if (avg>=50 && avg<60)
 {
 printf("result is passed in B grade ");
 }
